@@ -1,0 +1,859 @@
+
+https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css
+https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css
+
+ul>li{
+    margin-left: 66px;
+}
+
+.nav-item{
+	margin-left: 66px;
+}
+
+ul#menu{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+.alt>input{
+    padding-inline: 30px;
+}
+
+img#Adidas{
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+img#Nike{
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+img#Nb{
+    margin-right: 10px;
+}
+
+img#Ca{
+    margin-right: 10px;
+}
+
+input#inpu{
+    margin-left: 18px;
+	border-radius: 16px;
+	margin-top: 0px;
+}
+
+button#Log{
+    margin-right: 6px;
+}
+button#Logas{
+    margin-right: 6px;
+}
+
+img#Home{
+    margin-left: 12px;
+    margin-top: -10px;
+}
+
+.loli{
+    width: 100%;
+    height: auto;
+}
+
+img#lola{
+    margin-top: 58px;
+	margin-bottom:58px;
+    border-radius: 2px;
+    height:auto;
+    width:auto;
+    
+}
+nav#Ctz{
+	background-color: black;
+}
+p#compra{
+	color:black;
+}
+.animation-area {
+	background: black;
+	width: 100%;
+}
+.box-area {
+	position: absolute;
+	left: -2%;
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+}
+.box-area li {
+	position: relative;
+	display: block;
+	list-style: none;
+	width: 25px;
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+	animation-duration: 12s;
+
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay:0s;
+	animation-duration: 20s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 0s;
+	animation-duration: 20s;
+}
+.box-area li:nth-child(4) {
+	left: 80%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 12s;
+}
+.box-area li:nth-child(5) {
+	left: 5%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+	animation-duration: 8s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 0s;
+	animation-duration: 8s;
+}
+
+.box-area li:nth-child(7) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+	animation-duration: 12s;
+}
+.box-area li:nth-child(8) {
+	left: 56%;
+	width: 70px;
+	height: 70px;
+	animation-delay: 0s;
+	animation-duration: 20s;
+}
+.box-area li:nth-child(9) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 0s;
+	animation-duration: 20s;
+}
+.box-area li:nth-child(10) {
+	left: 16%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 8s;
+}
+
+
+@keyframes animate {
+	0% {
+		transform: translateY() rotate(0deg);
+		opacity: 5;
+	}
+	100% {
+		transform: translateY(-700px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+div#carouselExampleSlidesOnly{
+	margin-top: 30px;
+}
+
+div#sub{
+	margin-top: 30px;
+}
+p#produtosp{
+	color:#000000;
+}
+.um{
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.dois{
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.tres{
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+
+.zoom{
+	overflow: hidden;
+}
+
+.zoom img{
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+div#SUBE{
+	background-color: rgb(240, 238, 238);
+	margin-top: 20px;
+}
+
+h1#Conf{
+	margin-top: 20px;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	background-color: white;
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: rgb(214, 214, 214);
+	border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #00de00;
+
+}
+
+div#help{
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+img#card1{
+	margin-right: 6px;
+}
+
+div#produtos{
+	padding-top:13px;
+}
+
+div#solicitar{
+	padding-top:13px;
+}
+
+div#saq{
+	padding-top:13px;
+}
+
+div#help{
+	padding-top:8px;
+	padding-bottom:15px;
+	background-color: rgb(223, 222, 222);
+	border-radius: 1px;
+}
+
+h5#h5b{
+	text-align: justify;
+	margin-left: 110px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-style:italic;
+	font-weight: 800;
+}
+
+h5#h5Nikett{
+	text-align: center;
+	display: block;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+}
+
+h5#h5JJ{
+	text-align: center;
+	display: block;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+}
+
+h5#h5AIR{
+	text-align: center;
+	display: block;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+}
+
+h5#h5Nikett:hover{
+	color: #00de00;
+}
+
+h5#h5JJ:hover{
+	color: #00de00;
+}
+
+h5#h5AIR:hover{
+	color: #00de00;
+}
+
+h1#PQ{
+	text-align: center;
+	display: block;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+	margin-top: 30px;	
+	color: white;
+}
+
+
+.card{
+	margin-top: 40px;
+	width: 100%;
+	background-color: black;
+}
+
+h5#h5preto{
+	color: white;
+	font-style: bold;
+}
+
+h5#h5preto:hover{
+	color: #00de00;
+}
+
+p{
+	color: #ffffff;
+	
+}
+
+p:hover{
+	color: #00de00;
+}
+
+.conhecer{
+	color: white;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.conhecer:hover{
+	color: #00de00;
+}
+
+h2#h2b{
+	text-align: justify;
+	margin-left: 110px;
+	margin-top: 20px;
+	font-family: Arial;
+	font-style:italic;
+	font-weight: 800;	
+}
+
+h5#promotion{
+	color: white;
+}
+
+a#botaopromotion{
+	color: black;
+	background-color: white;
+}
+
+a#botaopromotion:hover{
+	color: white;
+	background-color: black;
+}
+
+div#othercard{
+	background-color: #00de00;
+}
+
+p#text1{
+	color: white;
+	font-weight: 700;
+}
+
+p#text1:hover{
+	color: black;
+}
+
+.h1{
+	margin-top: 18px;
+	color: white;
+	font-size: 97px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+}
+
+.h1:hover{
+	color: black;
+}
+
+h5#promotion:hover{
+	color: black;
+}
+
+div#othercard2{
+	background-color: rgb(223, 222, 222);
+}
+
+div#carrossel{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.col-lg-3{
+	padding-top: 10px;
+	padding-bottom:15px;
+}
+
+h5#historie{
+	color: white;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.varias{
+	text-align: center;
+    display: block;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.varias:hover{
+	color: #00de00;
+
+}
+
+.contato{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+	margin-top: 28px;
+}
+
+footer#rodape{
+	background-color: black;
+}
+
+.botaun{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	margin-top: 20px;
+}
+
+button#butao{
+	color: white;
+	background-color: #00de00;
+}
+
+button#butao:hover{
+	background-color: black;
+	color: white;
+}
+
+.whatsapp-link {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+}
+
+.fa-whatsapp {
+	margin-top: 16px;
+}
+
+
+/*produtos*/
+
+h1#titulo{
+	font-size: 65px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	margin-top: 30px;
+}
+
+h4#um{
+	color: black;
+	font-size: 16px;
+}
+
+h4#um:hover{
+	color: #00de00;
+	font-size: 16px;
+}
+
+p#um{
+	color: black;
+}
+
+p#negrito{
+	margin-top: -20px;
+	color: black;
+	font-weight: bold;
+}
+
+h4#marcasPD{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+}
+
+h4#marcasPD:hover{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 800;
+	font-size: 25px;
+	color: #00de00;
+}
+
+.btn2{
+	background-color: #00de00;
+	border: none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.btn2:hover{
+	background-color: black;
+}
+
+/*compra*/
+
+div#produto{
+	background-color: #F5F5F5;
+}
+
+div#box{
+	overflow: hidden;
+	
+}
+
+#box img{
+	transform-origin: center center;
+	object-fit: cover;
+}
+
+#tenisC{
+	margin-top: 65px;
+	margin-bottom: 60px;
+}
+
+h1#nomePDT{
+	font-size: 20px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	padding-top: 60px;
+}
+
+h6#subtPDT{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	color: #9C9C9C;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+h4#tamanhos{
+	margin-top:30px;
+}
+
+.descricao p{
+	font-size: 15px;
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	color: black;
+}
+
+.venda{
+	background-color: #E8E8E8;
+	height: 200px;
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p#preco{
+	color: black;
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+p#parcela{
+	margin-top: -20px;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.btn4{
+	background-color: #00de00;
+	border: none;
+	margin-top: 10px;
+}
+
+.btn4:hover{
+	background-color: black;
+}
+
+.btn3{
+	background-color: #00de00;
+	border: none;
+	margin-bottom:50px;
+}
+
+.btn3:hover{
+	background-color: black;
+}
+
+.btn5{
+	background-color: #00de00;
+	border: none;
+	margin-top: 10px;
+}
+
+.btn5:hover{
+	background-color: black;
+	border: none;
+	margin-top: 10px;
+}
+
+#descricao{
+	font-weight: bold;
+	font-family: Arial;
+	font-style: italic;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+
+#nikebjs{
+	font-weight: bold;
+	font-family: Arial;
+	font-style: italic;
+	font-size: 19px;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+#descricaoP{
+	font-family: Arial;
+	color: gray;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#avaliacao{
+	margin-top: 30px;
+	padding-left: 10px;
+	margin-bottom: 60px;
+}
+
+#avaliacao h6{
+	margin-top: 30px;
+	font-size: 19px;
+}
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 1.5em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+.form-control{
+	margin-top: 20px;
+	border: 1px solid #696969;
+}
+
+.form-control:focus {
+    border: 1px solid #8bc34a;
+    box-shadow: #00de00;
+	height: auto;
+}
+
+.form-group{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+ /*NIKE*/
+
+#tituloNK{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	font-size:65px;
+	margin-top:25px;
+}
+
+ /*ADIDAS*/
+ 
+#tituloADD{
+	font-family: Arial;
+	font-style: italic;
+	font-weight: 600;
+	font-size:65px;
+	margin-top:25px;
+}
+
+/*Nossa Historia*/
+
+.tituloH{
+	margin-left: 1%;
+	margin-right: 1%;
+	color: #00de00;
+	margin-top: 30px;
+}
+
+
+.Hist{
+	color: black;
+	text-align: justify;
+	margin-top: 30px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.Hist:hover{
+	color: black;
+}
+
+.proposta{
+	color: black;
+	text-align: justify;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.proposta:hover{
+	color: black;
+}
+
+.somos{
+	margin-left: 1%;
+	margin-right: 1%;
+	color: black;
+}
+
+.somos:hover{
+	color: black;
+}
+
+img#fotos{
+	margin-top: 20px;
+	border-radius: 90px;
+}
+
+.nomes{
+	margin-top: 20px;
+	color:black;
+	font-weight: bold;
+}
+
+.nomes:hover{
+	color:black;
+	font-weight: bold;
+}
+
+.funcao{
+	margin-right: 1%;
+	margin-top: -10px;
+	color:black;
+}
+
+.funcao:hover{
+	color:black;
+}
+
+div#histId{
+	margin-bottom: 50px;
+}
+
+/*Importante*/
+.Importante{
+	margin-left: 1%;
+	margin-right: 1%;
+	color: black;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+h1#desconto{
+	font-size: 60px;
+}
+
+h6#regra{
+	color: white;
+}
+
+h6#regra:hover{
+	color: black;
+}
+
+.ulpromo{
+	color: white;
+}
+
+.ulpromo>:hover{
+	color: black;
+}
+
+.desc{
+	color: white;
+}
+
+.desc:hover{
+	color: black;
+}

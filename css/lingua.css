@@ -1,0 +1,51 @@
+#google_translate_element {
+    display: none;
+}
+img#bandeiras {
+height:15px;
+width:25px;
+}
+
+/* pode desabilitar essa função abaixo */ 
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+body {
+
+    top: 0 !important;
+}
+.dropdown{
+
+	  display: block;
+margin-right:10px;
+}
+.dropbtn {
+
+  border: none;
+  background-color: #000; 
+
+
+}
+
+
+
+.dropdown-content {
+  display: none;
+
+}
+
+.dropdown-content a {
+  padding: 7px;
+padding-top: 10px;
+margin-right:5px;
+}
+
+	.dropdown-content a:hover {
+	}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	.dropdown:hover {
+	}
