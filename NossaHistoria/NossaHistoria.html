@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" href="../img/logo1.ico">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		  <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+      <link rel="stylesheet" type="text/css" href="../css/lingua.css">
+      <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+		  <script type="text/javascript" src="../js/myscript.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+      
+        <title>Nossa História</title>
+    </head>
+    
+    <body>
+
+       <!--Nav-bar Menu-->
+       <nav id="Ctz" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../index.php"><img id="Home" style="margin-top:1px;" src="../img/logo1.png" alt="icon" width="53" height="53"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="menu" class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Produtos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../crud/index.php">Masculino</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../crud/index.php">Feminino</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sobre Nós
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="NossaHistoria.html">Nossa História</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ajude nos a ajudar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../Imperdivel/imperdivel.html">Imperdível</a>
+                </div>
+              </li>
+           
+          </ul>
+          <div id="google_translate_element" class="boxTradutor"></div>
+    <!-- Aqui adiciona um idioma --> 
+	<div class= "dropdown">
+	<button class="dropbtn">
+	<a href="javascript:trocarIdioma('pt')"><img alt="portugues" src="../img/br.png"></a>
+	</button>
+	<div class="dropdown-content">
+    <a href="javascript:trocarIdioma('en')"><img alt="ingles" src="../img/en.png"></a> 
+	</div>
+	</div>
+              <form action="../crud/pesquisa.php" method="POST" class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-secondary" type="submit"><img id="PQ" src="../img/pesquisa.png" alt="icon" width="24" height="24"></button>
+                <div class="alt"><input id="inpu" name="pesquisar" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search"></div>
+              </form>
+          <a id="Log" href="../login/login.php"><button id="Log" class="btn btn-outline-secondary img-fluid" type="submit"> <img id="Log" src="../img/login.png" alt="icon" width="24" height="24"></button></a>
+          <a href="../crud/index.php?page=cart"><button id="Logas"  class="btn btn-outline-secondary img-fluid" type="submit"> <img id="Bag" src="../img/bag.png" alt="icon" width="24" height="24"></button></a>
+        
+         
+        </div>
+      </nav>
+			
+            <div>
+            <h1 class="text-center" id="titulo">Nossa História</h1>
+            </div>
+     
+
+            <div id="histId" class="container">
+                <p align="center" class="Hist">A nossa história começa em 2021, quando nossos professores nos propõem um projeto interdisciplinar, sendo este, criar um e-commerce que tivesse engajamento com um projeto social. Com um grupo de cinco integrantes criamos a High Shoes, uma empresa de venda de calçados hypebeast.</p>
+				        <div class="row">
+			              <div class="col-md-6">
+                        <h5 class="tituloH">Nossa Proposta</h5>
+                        <p align="center" class="proposta">No mundo em que vivemos hoje é impossível dizer que há igualdade entre todos, muitas pessoas ostentam o que têm enquanto há um grande grupo que passa necessidades. Com isso em mente esse projeto foi criado para doar calçados para pessoas carentes, assim contribuindo tanto para a reciclagem quanto para a população em si.</p>
+						
+                    </div>
+                          
+                    <div class="col-md-6">
+                        <h5 class="tituloH">Nosso Método</h5>
+                        <p align="center" class="proposta">Tendo em conta a nossa proposta, iremos realizá-la arrecadando sapatos dos clientes High Shoes, vamos incentivar as doações com descontos, promoções e brindes para quem contribuir com a ação.</p>
+                    </div>
+                </div>
+                <h5 class="tituloH">Quem Somos</h5>
+                <p class="somos">Somos alunos da Etec Jornalista Roberto Marinho e estamos cursando o segundo ano do curso Informática para Internet.</p>
+                <div class="row">
+                    <div align="center" class="col-lg-3">
+                      <div class="zoom">  
+                        <img class="img-fluid" id="fotos" src="fotos/c.jpg" width="180px"/><p class="nomes">Clarissa Maria Feitosa</p><p class="funcao">Pesquisa de tecnologias</p>
+                      </div>
+                    </div>
+                    <div align="center" class="col-lg-3">
+                      <div class="zoom">
+                        <img class="img-fluid" id="fotos" src="fotos/g.jpg" width="180px"/><p class="nomes">Gabriel Gomes Santos</p><p class="funcao">Coordenador do projeto</p>
+                      </div>
+                    </div>
+                    <div align="center" class="col-lg-3">
+                      <div class="zoom">  
+                        <img class="img-fluid" id="fotos" src="fotos/gi.jpg" width="180px"/><p class="nomes">Geovana Vitória da Silva</p><p class="funcao">Produção de conteúdo</p>
+                      </div>
+                    </div>
+                    <div align="center" class="col-lg-3">
+                      <div class="zoom">
+                        <img  class="img-fluid" id="fotos" src="fotos/l.jpg" width="180px"/><p class="nomes">Luiza Henrique de Souza</p><p class="funcao">Programador Font-End</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div align="center" class="col-lg-3">
+                      <div class="zoom"> 
+                        <img class="img-fluid" id="fotos" src="fotos/m.jpg" width="180px"/><p class="nomes">Murilo Rodrigues Simões</p><p class="funcao">Programador Back-End</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+           <!--Roda Pé-->
+          <footer id="rodape" class=" text-center text-white">
+            <div class="container p-4 pb-0">
+            
+            <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+  
+              <h1 class="contato">
+                Entre em contato conosco
+              </h1>
+  
+              <h5><a href="">SAQ</a></h5>
+              <h5><a href="">WhatsApp</a></h5>
+  
+            <h1 class="contato">Formas de pamentos</h1>
+            
+            <img src="../img/visa.png" alt="visa">
+            <img src="../img/mastercard.png" alt="mastercard">
+            <img src="../img/elo.png" alt="elo">
+            <img src="../img/american.png" alt="american">
+            <img src="../img/hipercard.png" alt="hipercard">
+            <img src="../img/club.png" alt="club">
+            <img src="../img/aelo.png" alt="aelo">
+  
+            <h1 class="contato">Nos siga nas redes socias</h1>
+            
+              <section class="mb-4">
+              
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://www.facebook.com/High-Shoes-100165789177996" role="button"><img src="../img/face.png" alt="face" class="img-fluid"></a>
+          
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://twitter.com/HighShoex?t=oA_guMl3ZgQSfDUlGA0gVw&s=09" role="button"><img src="../img/TT.png" alt="TT" class="img-fluid"></a>
+          
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://www.instagram.com/highshoex/" role="button"><img src="../img/iconfinder_social_media_applications_3-instagram_4102579.png" alt="instagram" class="img-fluid"></a>
+              
+              </section>
+            </div>
+  
+            <div class="text-center p-3" style="background-color: rgba(70, 70, 70, 0.2);">
+              © 2021 Copyright: High Shoes 
+            </div>
+          </footer>
+  
+          <!--Script-->
+          <!--Vlibras-->
+            <div id="Vli" vw class="enabled">
+              <div vw-access-button class="active"></div>
+              <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+              </div>
+            </div>
+             <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+              new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+          	<script type="text/javascript">
+    var comboGoogleTradutor = null; //Varialvel global
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'pt, en',
+            includedLanguages: 'en,pt',
+            layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+        }, 'google_translate_element');
+
+        comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+    }
+
+    function changeEvent(el) {
+        if (el.fireEvent) {
+            el.fireEvent('onchange');
+        } else {
+            var evObj = document.createEvent("HTMLEvents");
+
+            evObj.initEvent("change", false, true);
+            el.dispatchEvent(evObj);
+        }
+    }
+
+    function trocarIdioma(sigla) {
+        if (comboGoogleTradutor) {
+            comboGoogleTradutor.value = sigla;
+            changeEvent(comboGoogleTradutor);//Dispara a troca
+        }
+    }
+    </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <script type="text/javascript" src="js/lingua.js"></script>
+      </body>
+  
+  </html>

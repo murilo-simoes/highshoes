@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+      <meta charset="UTF-8">
+      <link rel="shortcut icon" href="../img/logo1.ico">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		  <link rel="stylesheet" type="text/css" href="../css/estilo.css">
+      <link rel="stylesheet" type="text/css" href="../css/lingua.css">
+      <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+		  <script type="text/javascript" src="../js/myscript.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+        <title>Imperdível</title>
+    </head>
+    
+    <body>
+
+       <!--Nav-bar Menu-->
+       <nav id="Ctz" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="../index.php"><img id="Home" style="margin-top:1px;" src="../img/logo1.png" alt="icon" width="53" height="53"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="menu" class="navbar-nav mr-auto">
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Produtos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../crud/index.php">Masculino</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../crud/index.php">Feminino</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sobre Nós
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../NossaHistoria/NossaHistoria.html">Nossa História</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ajude nos a ajudar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../Imperdivel/imperdivel.html">Imperdível</a>
+                </div>
+              </li>
+           
+          </ul>
+          <div id="google_translate_element" class="boxTradutor"></div>
+    <!-- Aqui adiciona um idioma --> 
+	<div class= "dropdown">
+	<button class="dropbtn">
+	<a href="javascript:trocarIdioma('pt')"><img alt="portugues" src="../img/br.png"></a>
+	</button>
+	<div class="dropdown-content">
+    <a href="javascript:trocarIdioma('en')"><img alt="ingles" src="../img/en.png"></a> 
+	</div>
+	</div>
+              <form action="../crud/pesquisa.php" method="POST" class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-secondary" type="submit"><img id="PQ" src="../img/pesquisa.png" alt="icon" width="24" height="24"></button>
+                <div class="alt"><input id="inpu" name="pesquisar" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search"></div>
+              </form>
+          <a id="Log" href="../login/login.php"><button id="Log" class="btn btn-outline-secondary img-fluid" type="submit"> <img id="Log" src="../img/login.png" alt="icon" width="24" height="24"></button></a>
+          <a href="../crud/index.php?page=cart"><button id="Logas"  class="btn btn-outline-secondary img-fluid" type="submit"> <img id="Bag" src="../img/bag.png" alt="icon" width="24" height="24"></button></a>
+        
+         
+        </div>
+      </nav>
+
+        <div>
+            <h1 class="text-center" id="titulo">Imperdível</h1>
+        </div>
+
+        <div class="container">
+            <p align="center" class="Importante">
+                Nos siga nas redes sociais para não perder nenhuma super promoção!
+            </p>
+        </div>
+
+        <div id="othercard2" class="card mb-3">
+          <h1 id="desconto" class="h1" align="center">Ajude a nos ajudar</h1>
+          <div class="card-body">
+            <h5 id="promotion" class="card-title">Válido o ano todo</h5>
+            <p id="text1" class="card-text">Doe seus tênis usados para ganhar descontos em tênis a baixo de R$4.000,00 no nosso site.</p>
+            <h6 id="regra">Regras da promoção:</h6>
+            <ul class="ulpromo">
+              <li>Os tênis têm de apresentar bom estado físico;</li>
+              <li>Os tênis não podem apresentar nenhum tipo de avaria agressiva, por exemplo: rasgos, manchas ou descolamento de quaisquer superfícies;</li>
+              <li>Os tênis só seram elegiveis se forem pertencentes as seguintes marcas: Adidas, Nike, New Balace e Converse;</li>
+              <li>Não será elegivel para a promoção tênis de marcas não citadas acima, e ou constatados como não originais da marca condizente.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="othercard" class="card mb-3">
+          <h1 id="desconto" class="h1" align="center">Esquenta de natal</h1>
+          <div class="card-body">
+            <h5 id="promotion" class="card-title">Desconto valido o dia todo em 23/12, nos itens selecionados por nossa equipe.</h5>
+            <p id="text1" class="card-text">Na compra de produtos acima de R$3.000,00, você ganha um cupom de 30% para utilizar na próxima compra.</p>
+            <h6 class="desc">Além do desconto de 30%, você ganha cashback de 8% no valor total do próximo produto.</h6>
+          </div>
+        </div>
+
+        
+          <!--Roda Pé-->
+          <footer id="rodape" class=" text-center text-white">
+            <div class="container p-4 pb-0">
+            
+            <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5599111112222" target="_blank">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+  
+              <h1 class="contato">
+                Entre em contato conosco
+              </h1>
+  
+              <h5><a href="">SAQ</a></h5>
+              <h5><a href="">WhatsApp</a></h5>
+  
+            <h1 class="contato">Formas de pamentos</h1>
+            
+            <img src="../img/visa.png" alt="visa">
+            <img src="../img/mastercard.png" alt="mastercard">
+            <img src="../img/elo.png" alt="elo">
+            <img src="../img/american.png" alt="american">
+            <img src="../img/hipercard.png" alt="hipercard">
+            <img src="../img/club.png" alt="club">
+            <img src="../img/aelo.png" alt="aelo">
+  
+            <h1 class="contato">Nos siga nas redes socias</h1>
+            
+              <section class="mb-4">
+              
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://www.facebook.com/High-Shoes-100165789177996" role="button"><img src="../img/face.png" alt="face" class="img-fluid"></a>
+          
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://twitter.com/HighShoex?t=oA_guMl3ZgQSfDUlGA0gVw&s=09" role="button"><img src="../img/TT.png" alt="TT" class="img-fluid"></a>
+          
+                <a class="btn btn-outline-secondary btn-floating m-1" href="https://www.instagram.com/highshoex/" role="button"><img src="../img/iconfinder_social_media_applications_3-instagram_4102579.png" alt="instagram" class="img-fluid"></a>
+              
+              </section>
+            </div>
+  
+            <div class="text-center p-3" style="background-color: rgba(70, 70, 70, 0.2);">
+              © 2021 Copyright: High Shoes 
+            </div>
+          </footer>
+  
+          <!--Script-->
+          <!--Vlibras-->
+            <div id="Vli" vw class="enabled">
+              <div vw-access-button class="active"></div>
+              <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+              </div>
+            </div>
+             <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+              new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+          <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          <script type="text/javascript" src="../js/lingua.js"></script>
+      </body>
+  
+  </html>
